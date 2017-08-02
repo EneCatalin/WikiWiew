@@ -1,0 +1,23 @@
+body{
+    background-image: url('../images/backgroundsvg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.page-container{
+    border: black 10px;
+    margin: -10% 5% 0% 5%;
+    padding:2% 5%;
+    opacity:.9;
+}
+
+.container1{
+    border: 10px black;
+    margin-top:10px;
+    background-color:white;
+    padding:1% 4%;
+    text-align: justify;
+}

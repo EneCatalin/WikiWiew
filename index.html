@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki View</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/search-bar.css">
+    <link rel="stylesheet" href="./css/page-body.css">
+
+    <script src="./javascript/main.js"></script>
+</head>
+<body>
+
+<!--this site is a wikipedia browser, nothing special about it-->
+<div class="page-container">
+    <div class="nav">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div id="imaginary_container">
+                    <div class="input-group stylish-input-group">
+                        <input type="text"  class="form-control searchInput" placeholder="Search">
+                        <span class="input-group-addon">
+                        <button type="submit" class="wikiSearch mysearch">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        <button type="button">
+                            <span class="glyphicon glyphicon glyphicon-random"
+                                  onclick="location.href='https://en.wikipedia.org/wiki/Special:Random';"></span>
+                        </button>
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+    <div class="test">
+    </div>
+</body>
+</html>
